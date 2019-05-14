@@ -1,0 +1,178 @@
+@import url( default.css );
+body {
+	margin-right: 1em; margin-left: 1em; background-color: white;
+}
+div.related {
+	padding: 0.5em 0px; margin-top: 0.5em; margin-bottom: 1.2em; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+div.related a:hover {
+	color: rgb(0, 149, 196);
+}
+div:first-child.related {
+	border-top-color: currentColor; border-bottom-color: rgb(204, 204, 204); border-top-width: 0px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid;
+}
+.inline-search {
+	display: inline;
+}
+form.inline-search input {
+	display: inline;
+}
+form.inline-search input[type='submit'] {
+	width: 30px;
+}
+div.sphinxsidebar {
+	border-radius: 5px; line-height: 130%; font-size: smaller; background-color: rgb(238, 238, 238);
+}
+div.sphinxsidebar h3 {
+	margin-top: 1.5em;
+}
+div.sphinxsidebar h4 {
+	margin-top: 1.5em;
+}
+div.sphinxsidebarwrapper > h3:first-child {
+	margin-top: 0.2em;
+}
+div.sphinxsidebarwrapper > ul > li > ul > li {
+	margin-bottom: 0.4em;
+}
+div.sphinxsidebar a:hover {
+	color: rgb(0, 149, 196);
+}
+form.inline-search input {
+	border-radius: 3px; border: 1px solid rgb(153, 153, 153); border-image: none; font-family: "Lucida Grande",Arial,sans-serif; font-size: smaller;
+}
+div.sphinxsidebar input {
+	border-radius: 3px; border: 1px solid rgb(153, 153, 153); border-image: none; font-family: "Lucida Grande",Arial,sans-serif; font-size: smaller;
+}
+div.sphinxsidebar input[type=text] {
+	max-width: 150px;
+}
+div.body {
+	padding: 0px 0px 0px 1.2em;
+}
+div.body p {
+	line-height: 140%;
+}
+div.body h1 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body h2 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body h3 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body h4 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body h5 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body h6 {
+	margin: 0px; padding: 0.3em 0px; border: 0px currentColor; border-image: none;
+}
+div.body hr {
+	border: 0px currentColor; border-image: none; height: 1px; background-color: rgb(204, 204, 204);
+}
+div.body pre {
+	border-radius: 3px; border: 1px solid rgb(170, 204, 153); border-image: none;
+}
+div.body div.admonition {
+	border-radius: 3px;
+}
+div.body div.impl-detail {
+	border-radius: 3px;
+}
+div.body div.impl-detail > p {
+	margin: 0px;
+}
+div.body div.seealso {
+	border: 1px solid rgb(221, 221, 102); border-image: none;
+}
+div.body a {
+	color: rgb(0, 114, 170);
+}
+div.body a:visited {
+	color: rgb(99, 99, 187);
+}
+div.body a:hover {
+	color: rgb(0, 176, 228);
+}
+tt {
+	font-family: monospace, sans-serif; font-size: 96.5%;
+}
+code {
+	font-family: monospace, sans-serif; font-size: 96.5%;
+}
+pre {
+	font-family: monospace, sans-serif; font-size: 96.5%;
+}
+div.body tt {
+	border-radius: 3px;
+}
+div.body code {
+	border-radius: 3px;
+}
+div.body tt.descname {
+	font-size: 120%;
+}
+div.body code.descname {
+	font-size: 120%;
+}
+div.body tt.xref {
+	font-weight: normal;
+}
+div.body a tt {
+	font-weight: normal;
+}
+div.body code.xref {
+	font-weight: normal;
+}
+div.body a code {
+	font-weight: normal;
+}
+.deprecated {
+	border-radius: 3px;
+}
+table.docutils {
+	border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; margin-top: 10px; margin-bottom: 10px; min-width: 20%;
+}
+table.docutils td {
+	border-radius: 3px; border: 1px solid rgb(221, 221, 221) !important; border-image: none !important;
+}
+table.docutils th {
+	border-radius: 3px; border: 1px solid rgb(221, 221, 221) !important; border-image: none !important;
+}
+table p {
+	text-align: left !important;
+}
+table li {
+	text-align: left !important;
+}
+table.docutils th {
+	padding: 0.3em 0.5em; background-color: rgb(238, 238, 238);
+}
+table.docutils td {
+	padding: 0.3em 0.5em; background-color: white;
+}
+table.footnote {
+	border: 0px currentColor !important; border-image: none !important;
+}
+table.footnote td {
+	border: 0px currentColor !important; border-image: none !important;
+}
+div.footer {
+	width: auto; text-align: right; line-height: 150%; margin-top: -2em; margin-right: 10px;
+}
+div.footer a:hover {
+	color: rgb(0, 149, 196);
+}
+.refcount {
+	color: rgb(0, 102, 0);
+}
+.stableabi {
+	color: rgb(34, 34, 153);
+}
+.highlight {
+	background: none !important;
+}
